@@ -1,8 +1,12 @@
 ---
 title: Hello
-date: 2023-09-30 12:00:00 -500
+author: hoyeong
+date: 2023-09-30 12:00:00 +0900
 categories: [homelab, hardware]
 tags: [control, engineering]
+pin: true
+math: true
+mermaid: true
 ---
 
 # Chirpy Starter
