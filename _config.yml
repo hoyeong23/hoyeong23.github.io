@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: http://control.dgist.ac.kr/web/wp-content/uploads/2023/09/IMG_1873-660x660.jpg
+avatar: 
 
 # boolean type, the global switch for TOC in posts.
 toc: true
