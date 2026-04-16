@@ -47,11 +47,24 @@
         </div>
 
         <aside class="hero-card">
+          <div class="profile-photo-frame">
+            <img
+              class="profile-photo"
+              src="assets/profile/profile-photo.jpg"
+              alt="Portrait of Hoyeong Yeo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            >
+            <div class="profile-photo-placeholder">Profile Photo</div>
+          </div>
           <p class="card-label">Current Position</p>
           <h2>Motion Control Lab</h2>
           <ul class="fact-list">
-            <li>Ph.D. in Robotics and Mechatronics Eng, DGIST (~2025.08)</li>
+            <li>Ph.D. Student(2025.08~)</li>
             <li>Email: hoyeong23@dgist.ac.kr</li>
+            <li>
+              Lab :
+              <a href="https://control.dgist.ac.kr/" target="_blank" rel="noreferrer">control.dgist.ac.kr</a>
+            </li>
           </ul>
         </aside>
       </div>
@@ -97,14 +110,17 @@
       <section class="panel reveal" id="publications">
         <div class="section-heading">
           <p class="eyebrow">Publications</p>
-          <h2>Selected Publications</h2>
+          <h2>Publications</h2>
         </div>
 
         <div class="publication-group">
           <h3>International Journal</h3>
           <ol class="publication-list">
             <li>
-              <strong>Data-Driven Disturbance Compensation for Core-Type Linear Motors Using TISO-GPR Integrated with Disturbance Observers</strong>
+              <div class="publication-title-row">
+                <strong>Data-Driven Disturbance Compensation for Core-Type Linear Motors Using TISO-GPR Integrated with Disturbance Observers</strong>
+                <a class="pdf-link" href="assets/papers/cep-2026.pdf" target="_blank" rel="noreferrer">pdf</a>
+              </div>
               <span>Hanul Jung*, Hoyeong Yeo*, Hamin Chang, and Sehoon Oh, 2026 Control Engineering Practice(CEP)</span>
             </li>
           </ol>
@@ -114,23 +130,37 @@
           <h3>International Conference</h3>
           <ol class="publication-list">
             <li>
-              <strong>Multi-dimensional Gaussian Process-based Control for Compensation of Multi-state Dependent Disturbance</strong>
+              <div class="publication-title-row">
+                <strong>Multi-dimensional Gaussian Process-based Control for Compensation of Multi-state Dependent Disturbance</strong>
+                <a class="pdf-link" href="assets/papers/aim-2024.pdf" target="_blank" rel="noreferrer">pdf</a>
+              </div>
               <span>Hoyeong Yeo*, Hanul Jung*, and Sehoon Oh, 2024 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</span>
             </li>
             <li>
-              <strong>Estimation of Multi-state Dependent Disturbance by Using Multi-dimensional Gaussian Process</strong>
+              <div class="publication-title-row">
+                <strong>Estimation of Multi-state Dependent Disturbance by Using Multi-dimensional Gaussian Process</strong>
+                <a class="pdf-link" href="assets/papers/isie-2024.pdf" target="_blank" rel="noreferrer">pdf</a>
+              </div>
               <span>Hoyeong Yeo, Hanul Jung, and Sehoon Oh, 2024 IEEE 33rd International Symposium on Industrial Electronics (ISIE)</span>
             </li>
             <li>
-              <strong>Mysteric-Net: MIMO Hysteretic Friction-aware Lagrangian-based Network for Legged Robot</strong>
+              <div class="publication-title-row">
+                <strong>Mysteric-Net: MIMO Hysteretic Friction-aware Lagrangian-based Network for Legged Robot</strong>
+                <a class="pdf-link" href="assets/papers/iros-2025.pdf" target="_blank" rel="noreferrer">pdf</a>
+              </div>
               <span>Hoyeong Yeo, Jinsong Hong, Taejune Kong, and Sehoon Oh, 2025 International Conference on Intelligent Robots and Systems (IROS)</span>
             </li>
             <li>
-              <strong>Dynamic Friction-aware Lagrangian Network for Accurate GRF Estimation in Legged Robot</strong>
+              <div class="publication-title-row">
+                <strong>Dynamic Friction-aware Lagrangian Network for Accurate GRF Estimation in Legged Robot</strong>
+                <a class="pdf-link" href="assets/papers/iccas-2025.pdf" target="_blank" rel="noreferrer">pdf</a>
+              </div>
               <span>Hoyeong Yeo, Jinsong Hong, and Sehoon Oh, 2025 International Conference on Control, Automation and Systems (ICCAS)</span>
             </li>
             <li>
-              <strong>CABO: Complexity-Aware Bayesian Optimization for Data-Driven Controller Structure Selection</strong>
+              <div class="publication-title-row">
+                <strong>CABO: Complexity-Aware Bayesian Optimization for Data-Driven Controller Structure Selection</strong>
+              </div>
               <span>Hoyeong Yeo, Taejune Kong, Kwanghyun Cho, and Sehoon Oh, 2026 IEEE Conference on Decision and Control (CDC), under review</span>
             </li>
           </ol>
@@ -140,11 +170,15 @@
           <h3>Domestic Conference</h3>
           <ol class="publication-list">
             <li>
-              <strong>다변수 상태 외란 추정을 위한 다차원 가우시안 프로세스</strong>
+              <div class="publication-title-row">
+                <strong>다변수 상태 외란 추정을 위한 다차원 가우시안 프로세스</strong>
+              </div>
               <span>여호영, 정하늘, 오세훈, 2024 제어로봇시스템학회 국내학술대회 (ICROS)</span>
             </li>
             <li>
-              <strong>라그랑지안 기반 네트워크를 이용한 2 자유도 시스템의 외란 추정</strong>
+              <div class="publication-title-row">
+                <strong>라그랑지안 기반 네트워크를 이용한 2 자유도 시스템의 외란 추정</strong>
+              </div>
               <span>여호영, 홍진송, 오세훈, 2025 제어로봇시스템학회 국내학술대회 (ICROS)</span>
             </li>
           </ol>
@@ -193,10 +227,10 @@
             <span class="contact-label">GitHub</span>
             <strong>github.com/hoyeong23</strong>
           </a>
-          <div class="contact-card static">
+          <a class="contact-card" href="https://control.dgist.ac.kr/" target="_blank" rel="noreferrer">
             <span class="contact-label">Affiliation</span>
             <strong>DGIST, Motion Control Lab</strong>
-          </div>
+          </a>
         </div>
       </section>
     </main>
