@@ -1,114 +1,198 @@
-<!DOCTYPE html>
-<html lang="ko">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoyeon Kim | Personal Homepage</title>
+  <title>Hoyeong Yeo | Research Homepage</title>
   <meta
     name="description"
-    content="김호연의 개인 홈페이지입니다. 소개, 작업, 연락처를 한 곳에서 확인할 수 있습니다."
+    content="Hoyeong Yeo's personal academic homepage featuring profile, research topics, publications, projects, and contact information."
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="site-bg"></div>
   <div class="page-shell">
-    <header class="hero">
+    <header class="hero reveal" id="top">
       <nav class="topbar">
-        <span class="brand">HK</span>
+        <a class="brand" href="#top">HY</a>
         <div class="nav-links">
-          <a href="#about">소개</a>
-          <a href="#projects">프로젝트</a>
-          <a href="#contact">연락</a>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
 
-      <div class="hero-content">
-        <p class="eyebrow">GitHub Pages Personal Site</p>
-        <h1>
-          안녕하세요.
-          <br>
-          저는 <span>김호연</span>입니다.
-        </h1>
-        <p class="hero-copy">
-          배우는 것과 만드는 것을 좋아하는 사람으로서, 제 작업과 관심사를 차분하지만 선명하게 담는 공간을 만들고 있습니다.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">작업 보기</a>
-          <a class="button secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Research Homepage</p>
+          <h1>Hoyeong Yeo</h1>
+          <p class="hero-role">
+            Ph.D. Student in Motion Control Lab,
+            <br>
+            Robotics and Mechatronics Engineering, DGIST
+          </p>
+          <p class="hero-summary">
+            This site reorganizes the core information from the previous Google Sites blog into a cleaner GitHub Pages homepage,
+            focusing on research profile, publications, projects, and academic achievements.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View Publications</a>
+            <a class="button secondary" href="https://github.com/hoyeong23" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
         </div>
+
+        <aside class="hero-card">
+          <p class="card-label">Current Position</p>
+          <h2>Motion Control Lab</h2>
+          <ul class="fact-list">
+            <li>Ph.D. in Robotics and Mechatronics Eng, DGIST</li>
+            <li>Started: August 2025</li>
+            <li>GitHub: hoyeong23</li>
+            <li>Email: hoyeong23@dgist.ac.kr</li>
+          </ul>
+        </aside>
       </div>
     </header>
 
     <main>
-      <section class="panel" id="about">
+      <section class="panel reveal" id="about">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2>이 홈페이지에 담을 것</h2>
+          <h2>Academic Background</h2>
         </div>
-        <div class="about-grid">
-          <article>
-            <h3>소개</h3>
-            <p>
-              어떤 공부를 하고 있는지, 어떤 일을 좋아하는지, 앞으로 무엇을 만들고 싶은지 간단히 소개할 수 있습니다.
-            </p>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">2025.08 - Present</span>
+            <h3>Ph.D. in Department of Robotics and Mechatronics Engineering, DGIST</h3>
           </article>
-          <article>
-            <h3>기록</h3>
-            <p>
-              프로젝트, 블로그 글, 포트폴리오, 이력서 링크를 정리해서 나를 설명하는 허브처럼 활용할 수 있습니다.
-            </p>
+          <article class="timeline-item">
+            <span class="timeline-date">2023.08 - 2025.08</span>
+            <h3>M.Sc. in Department of Robotics and Mechatronics Engineering, DGIST</h3>
           </article>
-          <article>
-            <h3>연결</h3>
-            <p>
-              GitHub, 이메일, SNS 같은 채널을 연결해 두면 다른 사람이 나를 더 쉽게 찾을 수 있습니다.
-            </p>
+          <article class="timeline-item">
+            <span class="timeline-date">2018.02 - 2023.08</span>
+            <h3>B.Sc. in School of Basic Science, DGIST</h3>
           </article>
         </div>
       </section>
 
-      <section class="panel accent" id="projects">
+      <section class="panel accent reveal" id="research">
         <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>대표 작업 예시</h2>
+          <p class="eyebrow">Research</p>
+          <h2>Research Topic</h2>
         </div>
-        <div class="project-list">
-          <article class="project-card">
-            <p class="project-tag">01</p>
-            <h3>개인 소개 사이트</h3>
-            <p>나를 소개하는 첫 웹사이트. GitHub Pages로 빠르게 배포할 수 있는 정적 페이지입니다.</p>
+        <article class="feature-card">
+          <h3>System Modeling using Physics-based Neural Network</h3>
+          <p>
+            In real-world systems, dynamics are non-conservative and include rigid-body behavior together with dissipative
+            components such as friction. To better reflect these characteristics, the work combines physics-based neural
+            networks with time-series neural networks.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel reveal" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Selected Publications</h2>
+        </div>
+
+        <div class="publication-group">
+          <h3>International Conference</h3>
+          <ol class="publication-list">
+            <li>
+              <strong>Multi-dimensional Gaussian Process-based Control for Compensation of Multi-state Dependent Disturbance</strong>
+              <span>Hoyeong Yeo, Hanul Jung, and Sehoon Oh, 2024 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</span>
+            </li>
+            <li>
+              <strong>Estimation of Multi-state Dependent Disturbance by Using Multi-dimensional Gaussian Process</strong>
+              <span>Hoyeong Yeo, Hanul Jung, and Sehoon Oh, 2024 IEEE 33rd International Symposium on Industrial Electronics (ISIE)</span>
+            </li>
+            <li>
+              <strong>Mysteric-Net: MIMO Hysteretic Friction-aware Lagrangian-based Network for Legged Robot</strong>
+              <span>Hoyeong Yeo, Jinsong Hong, Taejune Kong, and Sehoon Oh, 2025 International Conference on Intelligent Robots and Systems (IROS)</span>
+            </li>
+            <li>
+              <strong>Dynamic Friction-aware Lagrangian Network for Accurate GRF Estimation in Legged Robot</strong>
+              <span>Hoyeong Yeo, Jinsong Hong, and Sehoon Oh, 2025 International Conference on Control, Automation and Systems (ICCAS)</span>
+            </li>
+            <li>
+              <strong>CABO: Complexity-Aware Bayesian Optimization for Data-Driven Controller Structure Selection</strong>
+              <span>Hoyeong Yeo, Taejune Kong, Kwanghyun Cho, and Sehoon Oh, 2026 IEEE Conference on Decision and Control (CDC), under review</span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="publication-group">
+          <h3>Domestic Conference</h3>
+          <ol class="publication-list">
+            <li>
+              <strong>다변수 상태 외란 추정을 위한 다차원 가우시안 프로세스</strong>
+              <span>여호영, 정하늘, 오세훈, 2024 제어로봇시스템학회 국내학술대회 (ICROS)</span>
+            </li>
+            <li>
+              <strong>라그랑지안 기반 네트워크를 이용한 2 자유도 시스템의 외란 추정</strong>
+              <span>여호영, 홍진송, 오세훈, 2025 제어로봇시스템학회 국내학술대회 (ICROS)</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="panel accent reveal" id="achievements">
+        <div class="section-heading">
+          <p class="eyebrow">Achievements</p>
+          <h2>Awards, Funding, and Projects</h2>
+        </div>
+
+        <div class="split-grid">
+          <article class="detail-card">
+            <h3>Awards & Funding</h3>
+            <ul class="detail-list">
+              <li>Student and Young Professionals Paper Assistance Program (SYPA), 2024 IEEE ISIE - 1,500 USD</li>
+              <li>Student Support Award, 2024 IEEE AIM - 400 USD</li>
+              <li>Student and Young Professionals Paper Assistance Program (SYPA), 2025 IROS - 1,500 USD</li>
+            </ul>
           </article>
-          <article class="project-card">
-            <p class="project-tag">02</p>
-            <h3>작업 모음 페이지</h3>
-            <p>만든 프로젝트, 글, 실험을 한데 모아 포트폴리오처럼 보여주는 섹션입니다.</p>
-          </article>
-          <article class="project-card">
-            <p class="project-tag">03</p>
-            <h3>연락 및 링크 허브</h3>
-            <p>이메일, GitHub, 노션, 블로그 등 주요 채널을 깔끔하게 연결하는 공간입니다.</p>
+
+          <article class="detail-card">
+            <h3>Projects</h3>
+            <ul class="detail-list">
+              <li>Development and Optimization of Data-Driven Controllers Using Reinforcement Learning for Enhanced Precision in Mechatronics System
+              <span>NRF, Master's Student Research Encouragement Support Project, 2024.09 - 2025.08</span></li>
+              <li>Active Vibration Isolation Control Using Digital Controller Implementation (On going)
+              <span>NRF, Master's Student Research Encouragement Support Project, 2025.06 - 2026.05</span></li>
+            </ul>
           </article>
         </div>
       </section>
 
-      <section class="panel contact-panel" id="contact">
+      <section class="panel reveal" id="contact">
         <div class="section-heading">
           <p class="eyebrow">Contact</p>
-          <h2>연결할 링크를 여기에</h2>
+          <h2>Get in Touch</h2>
         </div>
-        <div class="contact-box">
-          <p>아래 링크는 나중에 실제 계정 주소로 바꾸면 됩니다.</p>
-          <ul class="contact-links">
-            <li><a href="mailto:you@example.com">you@example.com</a></li>
-            <li><a href="https://github.com/your-id" target="_blank" rel="noreferrer">github.com/your-id</a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn 프로필</a></li>
-          </ul>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:hoyeong23@dgist.ac.kr">
+            <span class="contact-label">Email</span>
+            <strong>hoyeong23@dgist.ac.kr</strong>
+          </a>
+          <a class="contact-card" href="https://github.com/hoyeong23" target="_blank" rel="noreferrer">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/hoyeong23</strong>
+          </a>
+          <div class="contact-card static">
+            <span class="contact-label">Affiliation</span>
+            <strong>DGIST, Motion Control Lab</strong>
+          </div>
         </div>
       </section>
     </main>
