@@ -337,6 +337,38 @@ h3 {
   margin-bottom: 14px;
 }
 
+.collaborators-group {
+  margin-top: 34px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.collaborator-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.collaborator-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(15, 27, 23, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.collaborator-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(14, 122, 95, 0.35);
+  background: rgba(14, 122, 95, 0.08);
+}
+
 .publication-list {
   margin: 0;
   padding-left: 22px;

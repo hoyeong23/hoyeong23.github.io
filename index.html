@@ -108,6 +108,38 @@
       background: rgba(14, 122, 95, 0.16);
     }
 
+    .collaborators-group {
+      margin-top: 34px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(15, 27, 23, 0.12);
+    }
+
+    .collaborator-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .collaborator-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border: 1px solid rgba(15, 27, 23, 0.12);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.78);
+      color: #0f1b17;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease;
+    }
+
+    .collaborator-link:hover {
+      transform: translateY(-2px);
+      border-color: rgba(14, 122, 95, 0.35);
+      background: rgba(14, 122, 95, 0.08);
+    }
+
     @media (max-width: 940px) {
       .publication-title-row {
         flex-direction: column;
@@ -179,11 +211,11 @@
         <div class="timeline">
           <article class="timeline-item">
             <span class="timeline-date">2025.08 - Present</span>
-            <h3>Ph.D. in Department of Robotics and Mechatronics Engineering, DGIST</h3>
+            <h3>Ph.D. in Department of Robotics and Mechatronics Engineering, DGIST (Supervisor : Prof. Sehoon Oh)</h3>
           </article>
           <article class="timeline-item">
             <span class="timeline-date">2023.08 - 2025.08</span>
-            <h3>M.Sc. in Department of Robotics and Mechatronics Engineering, DGIST</h3>
+            <h3>M.Sc. in Department of Robotics and Mechatronics Engineering, DGIST (Supervisor : Prof. Sehoon Oh)</h3>
           </article>
           <article class="timeline-item">
             <span class="timeline-date">2018.02 - 2023.08</span>
@@ -282,6 +314,18 @@
               <span>여호영, 홍진송, 오세훈, 2025 제어로봇시스템학회 국내학술대회 (ICROS)</span>
             </li>
           </ol>
+        </div>
+
+        <div class="publication-group collaborators-group">
+          <h3>Collaborators</h3>
+          <div class="collaborator-list">
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=L5Ts5GoAAAAJ&hl=ko" target="_blank" rel="noreferrer">Hanul Jung</a>
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=s02ND78AAAAJ&hl=ko&oi=ao" target="_blank" rel="noreferrer">Jinsong Hong</a>
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=ArSkG4oAAAAJ&hl=ko&oi=ao" target="_blank" rel="noreferrer">Taejune Kong</a>
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=Q3BXSpoAAAAJ&hl=ko&oi=ao" target="_blank" rel="noreferrer">Kwanghyun Cho</a>
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=kLu60RkAAAAJ&hl=ko&oi=ao" target="_blank" rel="noreferrer">Sehoon Oh</a>
+            <a class="collaborator-link" href="https://scholar.google.com/citations?user=ttLTk5YAAAAJ&hl=ko&oi=ao" target="_blank" rel="noreferrer">Hamin Chang</a>
+          </div>
         </div>
       </section>
 
