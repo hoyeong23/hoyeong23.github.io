@@ -385,7 +385,7 @@ h3 {
   border-bottom: 0;
 }
 
-.publication-list strong,
+.publication-title-row > strong,
 .publication-list span {
   display: block;
 }
